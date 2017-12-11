@@ -166,6 +166,7 @@ public class GeneticAlgorithm {
 			mutation1(individual, m1, m2);  // vertices selected were not optimal for mutation2
 		}
 	}
+
 	
 	/* Code for Debugging
 	public static void main( String[] args )

@@ -26,16 +26,22 @@ public class Main
 	final static Logger logger = Logger.getLogger(Main.class);
     public static void main( String[] args )
     {
+    	// PARAMETERS
+    	int n = 50; // size of the graph
+    	int maxweight = 5; // maximum weight of each edge
+    	
+    	// RUN THE PROGRAM
     	BasicConfigurator.configure();
     	
+    	// Seed random so that solutions can be compared for a graph of the same size
         Random random = new Random(10);
-        int n = 100;
+        
         WeightedGraph g = new WeightedGraph(n);
         // generate a complete graph with n vertices
         for (int i = 0; i < n; i++) {
         	for(int j=i+1; j<n; j++) {
-        		int weight = random.nextInt(5)+1;
-        		WeightedEdge e = new WeightedEdge(i, j, weight); //create edge with weight between 1 and 5
+        		int weight = random.nextInt(maxweight)+1;
+        		WeightedEdge e = new WeightedEdge(i, j, weight); //create edge with weight between 1 and maxweight
         		g.addEdge(e);
         	}
         }

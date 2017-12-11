@@ -4,18 +4,19 @@ package info6205.project.GeneticAlgorithm;
 public class WeightedEdge {
 	private final int v;
 	private final int w;
-	private final double weight;
+	private final int weight;
 	
-	public WeightedEdge(int v, int w, double weight) {
+	public WeightedEdge(int v, int w, int weight) {
 		this.v = v;
 		this.w = w;
 		this.weight = weight;
 	}
 	
 	// Getters
-	public double weight() { return weight; }
+	public int weight() { return weight; }
 	public int v() { return v; }
 	public int w() { return w; }
+	
 	
 	public int other(int vertex) {
 		if (vertex==v) return w;

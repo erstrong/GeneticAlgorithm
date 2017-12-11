@@ -40,8 +40,8 @@ public class Population {
 	
 	public void removeMember(Individual oldmember) {
 		
-		oldmember.previous.next = oldmember.next;
-		oldmember.next.previous = oldmember.previous;
+		if(oldmember.previous != null) {oldmember.previous.next = oldmember.next;}
+		if(oldmember.next != null) {oldmember.next.previous = oldmember.previous;}
 		
 		if(oldmember==this.last) { this.last = oldmember.previous; }
 		if(oldmember==this.first) { this.first = oldmember.next; }
@@ -83,8 +83,8 @@ public class Population {
 		// we seed the population with 4 members
 		for(int i=0; i<4; i++) {
 			int[] array = new int[n];
-			// create array of 1 through n
-			for (int j = 0; j < n; j++) { array[j-1] = j; }
+			// create array of 0 through n-1
+			for (int j = 0; j < n; j++) { array[j] = j; }
 			// shuffle the array using the Fisher-Yates method
 			Random rnd = new Random();
 			for (int j = array.length-1; j >0; j--) {
@@ -100,5 +100,45 @@ public class Population {
 			this.size++;
 		}
 	}
-	
+	/* Code for Debugging
+	public static void main( String[] args )
+    {
+		 Random random = new Random(10);
+	     int n = 5;
+	     WeightedGraph g = new WeightedGraph(n);
+	     // generate a complete graph with n vertices
+	     for (int i = 0; i < n; i++) {
+	    	 for(int j=i+1; j<n; j++) {
+	        	int weight = random.nextInt(5)+1;
+	        	WeightedEdge e = new WeightedEdge(i, j, weight); //create edge with weight between 1 and 5
+	        	g.addEdge(e);
+	        }
+	     }
+	     Population p = new Population(g, true);
+	     Individual[] members = p.sortOnFitness();
+	     System.out.println("Test 1");
+	     for(Individual i : members) {
+	    	 System.out.println(i.toString());
+	     }
+	     System.out.println("First: " + p.first.toString());
+	     int[] array={0,1,2,3,4};
+	     Individual i = new Individual(array,null,null);
+	     
+	     //verify addMember works
+	     p.addMember(i);
+	     System.out.println("Test 2");
+	     Individual[] members2 = p.sortOnFitness();
+	     for(Individual i2 : members2) {
+	    	 System.out.println(i2.toString());
+	     }
+	     
+	     p.removeMember(i);
+	     System.out.println("Test 3");
+	     Individual[] members3 = p.sortOnFitness();
+	     for(Individual i3 : members3) {
+	    	 System.out.println(i3.toString());
+	     }
+	        
+    }
+	*/
 }

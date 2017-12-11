@@ -48,11 +48,11 @@ public class Individual {
 		// add the weight for the final edge
 		for(WeightedEdge e : b){
 			if ((e.v()==gene[gene.length-1] && e.w()==gene[0]) || (e.w()==gene[0] && e.v()==gene[gene.length-1])){
-				sum+= e.weight();
+				sum = sum + e.weight();
 				break; // vertex has been found, end the iteration through bag
 			}
 		}
-		this.score = 1/sum;  // fitness score is inverse of the sum of the weights
+		this.score = (float) 1 / sum;  // fitness score is inverse of the sum of the weights
 	}
 
 	public int compareTo(Individual that) {

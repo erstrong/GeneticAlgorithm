@@ -39,7 +39,7 @@ public class Main
         WeightedGraph g = new WeightedGraph(n);
         // generate a complete graph with n vertices
         for (int i = 0; i < n; i++) {
-        	for(int j=i+1; j<n; j++) {
+        	for(int j=0; j<n; j++) {
         		int weight = random.nextInt(maxweight)+1;
         		WeightedEdge e = new WeightedEdge(i, j, weight); //create edge with weight between 1 and maxweight
         		g.addEdge(e);

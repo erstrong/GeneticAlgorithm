@@ -1,5 +1,6 @@
 package info6205.project.GeneticAlgorithm;
 
+
 import java.util.Random;
 
 public class Population {
@@ -100,9 +101,35 @@ public class Population {
 			this.size++;
 		}
 	}
-	/* Code for Debugging
+	/*
+	//Code for Debugging
 	public static void main( String[] args )
     {
+		 WeightedGraph g = new WeightedGraph(4);
+			for (int i = 0; i < 4; i++) {
+				for (int j = 0; j < 4; j++) {
+					if(i!=j) {
+						int w = 1;
+						if(i==2 && j==3) { w=2; };
+						WeightedEdge e = new WeightedEdge(i, j, w);
+						g.addEdge(e);
+						System.out.println(i + " " + j + " " + w);
+					}
+				}
+			}
+			
+			Population p = new Population(g, true);
+			 int[] a = {0, 1, 2, 3};
+			 p.addMember(new Individual(a, null, null));
+			 int[] b = {1,2,0,3};
+			 p.addMember(new Individual(b, null, null));
+			 System.out.println(p.size());
+			 Individual[] members = p.sortOnFitness();
+			 for(Individual c : members) {
+				 System.out.println(c.toString());
+			 }
+    
+		 
 		 Random random = new Random(10);
 	     int n = 5;
 	     WeightedGraph g = new WeightedGraph(n);

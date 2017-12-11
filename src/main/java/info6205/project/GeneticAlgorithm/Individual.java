@@ -40,6 +40,7 @@ public class Individual {
 		for( int i = 0; i < gene.length-1; i++) {
 			for(WeightedEdge e : b){
 				if ((e.v()==gene[i] && e.w()==gene[i+1]) || (e.w()==gene[i] && e.v()==gene[i+1])){
+					//System.out.println(gene[i] + " " + gene[i+1] + " " + e.weight());
 					sum+= e.weight();
 					break; // vertex i has been found, end the iteration through bag for i
 				}
@@ -47,12 +48,15 @@ public class Individual {
 		}
 		// add the weight for the final edge
 		for(WeightedEdge e : b){
-			if ((e.v()==gene[gene.length-1] && e.w()==gene[0]) || (e.w()==gene[0] && e.v()==gene[gene.length-1])){
+			if ((e.v()==gene[gene.length-1] && e.w()==gene[0]) || (e.v()==gene[0] && e.w()==gene[gene.length-1])){
+				//System.out.println("connnect" + gene[gene.length-1] + " " + gene[0] + " " + e.weight());
 				sum = sum + e.weight();
 				break; // vertex has been found, end the iteration through bag
-			}
+			} 
+			
 		}
 		this.score = (float) 1 / sum;  // fitness score is inverse of the sum of the weights
+		//System.out.println("end");
 	}
 
 	public int compareTo(Individual that) {

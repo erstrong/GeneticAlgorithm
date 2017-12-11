@@ -22,7 +22,9 @@ public class WeightedGraph {
 		int v = e.v();
 		int w = e.w();
 		adj[v].add(e);
+		//System.out.println("v edge added" + v);
 		adj[w].add(e);
+		//System.out.println("w edge added" + w);
 		E++;
 	}
 	
@@ -30,7 +32,7 @@ public class WeightedGraph {
 	public Iterable<WeightedEdge> edges() {
 		Bag<WeightedEdge> b = new Bag<WeightedEdge>();
 		for (int v = 0; v < V; v++) 
-			for (WeightedEdge e: adj[v])
+			for (WeightedEdge e : adj[v])
 				if (e.other(v) > v) b.add(e);
 		return b;
 	}

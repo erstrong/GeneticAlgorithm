@@ -678,3 +678,129 @@
 2017-12-10 23:45:36 INFO  GeneticAlgorithm:36 - Generation: 20 Individuals: 88 Best Score: 0.02
 2017-12-10 23:45:36 INFO  GeneticAlgorithm:36 - Generation: 21 Individuals: 176 Best Score: 0.02
 2017-12-10 23:45:36 INFO  GeneticAlgorithm:41 - Shortest PathOrder of Cities: 17, 0, 1, 20, 16, 4, 5, 13, 7, 21, 24, 10, 12, 9, 14, 11, 22, 18, 19, 23, 2, 10, 8, 3, 6, Fitness: 0.02
+2017-12-11 11:17:48 INFO  GeneticAlgorithm:18 - Vertices: 5
+2017-12-11 11:17:48 INFO  GeneticAlgorithm:36 - Generation: 0 Individuals: 8 Best Score: 0.09090909
+2017-12-11 11:17:48 INFO  GeneticAlgorithm:36 - Generation: 1 Individuals: 10 Best Score: 0.09090909
+2017-12-11 11:17:48 INFO  GeneticAlgorithm:36 - Generation: 2 Individuals: 12 Best Score: 0.1
+2017-12-11 11:17:48 INFO  GeneticAlgorithm:36 - Generation: 3 Individuals: 14 Best Score: 0.1
+2017-12-11 11:17:48 INFO  GeneticAlgorithm:36 - Generation: 4 Individuals: 16 Best Score: 0.1
+2017-12-11 11:17:48 INFO  GeneticAlgorithm:36 - Generation: 5 Individuals: 18 Best Score: 0.1
+2017-12-11 11:17:48 INFO  GeneticAlgorithm:36 - Generation: 6 Individuals: 20 Best Score: 0.1
+2017-12-11 11:17:48 INFO  GeneticAlgorithm:36 - Generation: 7 Individuals: 22 Best Score: 0.1
+2017-12-11 11:17:48 INFO  GeneticAlgorithm:36 - Generation: 8 Individuals: 24 Best Score: 0.1
+2017-12-11 11:17:48 INFO  GeneticAlgorithm:36 - Generation: 9 Individuals: 26 Best Score: 0.1
+2017-12-11 11:17:48 INFO  GeneticAlgorithm:36 - Generation: 10 Individuals: 28 Best Score: 0.1
+2017-12-11 11:17:48 INFO  GeneticAlgorithm:41 - Shortest PathOrder of Cities: 3, 1, 2, 4, 0, Fitness: 0.1
+2017-12-11 11:18:04 INFO  GeneticAlgorithm:18 - Vertices: 5
+2017-12-11 11:18:04 INFO  GeneticAlgorithm:36 - Generation: 0 Individuals: 8 Best Score: 0.1
+2017-12-11 11:18:04 INFO  GeneticAlgorithm:36 - Generation: 1 Individuals: 10 Best Score: 0.1
+2017-12-11 11:18:04 INFO  GeneticAlgorithm:36 - Generation: 2 Individuals: 12 Best Score: 0.1
+2017-12-11 11:18:04 INFO  GeneticAlgorithm:36 - Generation: 3 Individuals: 14 Best Score: 0.1
+2017-12-11 11:18:04 INFO  GeneticAlgorithm:36 - Generation: 4 Individuals: 28 Best Score: 0.1
+2017-12-11 11:18:04 INFO  GeneticAlgorithm:36 - Generation: 5 Individuals: 30 Best Score: 0.1
+2017-12-11 11:18:04 INFO  GeneticAlgorithm:36 - Generation: 6 Individuals: 32 Best Score: 0.1
+2017-12-11 11:18:04 INFO  GeneticAlgorithm:36 - Generation: 7 Individuals: 34 Best Score: 0.1
+2017-12-11 11:18:04 INFO  GeneticAlgorithm:36 - Generation: 8 Individuals: 68 Best Score: 0.1
+2017-12-11 11:18:04 INFO  GeneticAlgorithm:36 - Generation: 9 Individuals: 70 Best Score: 0.1
+2017-12-11 11:18:04 INFO  GeneticAlgorithm:36 - Generation: 10 Individuals: 72 Best Score: 0.1
+2017-12-11 11:18:04 INFO  GeneticAlgorithm:41 - Shortest PathOrder of Cities: 0, 1, 3, 2, 4, Fitness: 0.1
+2017-12-11 11:18:11 INFO  GeneticAlgorithm:18 - Vertices: 5
+2017-12-11 11:18:11 INFO  GeneticAlgorithm:36 - Generation: 0 Individuals: 8 Best Score: 0.1
+2017-12-11 11:18:11 INFO  GeneticAlgorithm:36 - Generation: 1 Individuals: 10 Best Score: 0.1
+2017-12-11 11:18:11 INFO  GeneticAlgorithm:36 - Generation: 2 Individuals: 12 Best Score: 0.1
+2017-12-11 11:18:11 INFO  GeneticAlgorithm:36 - Generation: 3 Individuals: 14 Best Score: 0.1
+2017-12-11 11:18:11 INFO  GeneticAlgorithm:36 - Generation: 4 Individuals: 16 Best Score: 0.1
+2017-12-11 11:18:11 INFO  GeneticAlgorithm:36 - Generation: 5 Individuals: 18 Best Score: 0.1
+2017-12-11 11:18:11 INFO  GeneticAlgorithm:36 - Generation: 6 Individuals: 20 Best Score: 0.1
+2017-12-11 11:18:11 INFO  GeneticAlgorithm:36 - Generation: 7 Individuals: 22 Best Score: 0.1
+2017-12-11 11:18:11 INFO  GeneticAlgorithm:36 - Generation: 8 Individuals: 44 Best Score: 0.1
+2017-12-11 11:18:11 INFO  GeneticAlgorithm:36 - Generation: 9 Individuals: 46 Best Score: 0.1
+2017-12-11 11:18:11 INFO  GeneticAlgorithm:36 - Generation: 10 Individuals: 92 Best Score: 0.1
+2017-12-11 11:18:11 INFO  GeneticAlgorithm:41 - Shortest PathOrder of Cities: 1, 2, 4, 0, 3, Fitness: 0.1
+2017-12-11 11:18:18 INFO  GeneticAlgorithm:18 - Vertices: 5
+2017-12-11 11:18:18 INFO  GeneticAlgorithm:36 - Generation: 0 Individuals: 8 Best Score: 0.1
+2017-12-11 11:18:18 INFO  GeneticAlgorithm:36 - Generation: 1 Individuals: 10 Best Score: 0.1
+2017-12-11 11:18:18 INFO  GeneticAlgorithm:36 - Generation: 2 Individuals: 12 Best Score: 0.1
+2017-12-11 11:18:18 INFO  GeneticAlgorithm:36 - Generation: 3 Individuals: 14 Best Score: 0.1
+2017-12-11 11:18:18 INFO  GeneticAlgorithm:36 - Generation: 4 Individuals: 16 Best Score: 0.1
+2017-12-11 11:18:18 INFO  GeneticAlgorithm:36 - Generation: 5 Individuals: 18 Best Score: 0.1
+2017-12-11 11:18:18 INFO  GeneticAlgorithm:36 - Generation: 6 Individuals: 20 Best Score: 0.1
+2017-12-11 11:18:18 INFO  GeneticAlgorithm:36 - Generation: 7 Individuals: 22 Best Score: 0.1
+2017-12-11 11:18:18 INFO  GeneticAlgorithm:36 - Generation: 8 Individuals: 24 Best Score: 0.1
+2017-12-11 11:18:18 INFO  GeneticAlgorithm:36 - Generation: 9 Individuals: 26 Best Score: 0.1
+2017-12-11 11:18:18 INFO  GeneticAlgorithm:36 - Generation: 10 Individuals: 28 Best Score: 0.1
+2017-12-11 11:18:18 INFO  GeneticAlgorithm:41 - Shortest PathOrder of Cities: 4, 2, 3, 1, 0, Fitness: 0.1
+2017-12-11 15:40:58 INFO  GeneticAlgorithm:18 - Vertices: 5
+2017-12-11 15:40:58 INFO  GeneticAlgorithm:36 - Generation: 0 Individuals: 8 Best Score: 0.1
+2017-12-11 15:40:58 INFO  GeneticAlgorithm:36 - Generation: 1 Individuals: 10 Best Score: 0.1
+2017-12-11 15:40:58 INFO  GeneticAlgorithm:36 - Generation: 2 Individuals: 12 Best Score: 0.1
+2017-12-11 15:40:58 INFO  GeneticAlgorithm:36 - Generation: 3 Individuals: 14 Best Score: 0.1
+2017-12-11 15:40:58 INFO  GeneticAlgorithm:36 - Generation: 4 Individuals: 16 Best Score: 0.1
+2017-12-11 15:40:59 INFO  GeneticAlgorithm:36 - Generation: 5 Individuals: 18 Best Score: 0.1
+2017-12-11 15:40:59 INFO  GeneticAlgorithm:36 - Generation: 6 Individuals: 20 Best Score: 0.1
+2017-12-11 15:40:59 INFO  GeneticAlgorithm:36 - Generation: 7 Individuals: 40 Best Score: 0.1
+2017-12-11 15:40:59 INFO  GeneticAlgorithm:36 - Generation: 8 Individuals: 42 Best Score: 0.1
+2017-12-11 15:40:59 INFO  GeneticAlgorithm:36 - Generation: 9 Individuals: 44 Best Score: 0.1
+2017-12-11 15:40:59 INFO  GeneticAlgorithm:36 - Generation: 10 Individuals: 46 Best Score: 0.1
+2017-12-11 15:40:59 INFO  GeneticAlgorithm:41 - Shortest PathOrder of Cities: 3, 2, 4, 0, 1, Fitness: 0.1
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:18 - Vertices: 25
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 0 Individuals: 8 Best Score: 0.014492754
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 1 Individuals: 10 Best Score: 0.014492754
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 2 Individuals: 12 Best Score: 0.015384615
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 3 Individuals: 14 Best Score: 0.015384615
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 4 Individuals: 16 Best Score: 0.015384615
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 5 Individuals: 18 Best Score: 0.015384615
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 6 Individuals: 20 Best Score: 0.015625
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 7 Individuals: 40 Best Score: 0.015625
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 8 Individuals: 42 Best Score: 0.016666668
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 9 Individuals: 44 Best Score: 0.01724138
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 10 Individuals: 46 Best Score: 0.01724138
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 11 Individuals: 48 Best Score: 0.018518519
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 12 Individuals: 50 Best Score: 0.018518519
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 13 Individuals: 100 Best Score: 0.018518519
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 14 Individuals: 200 Best Score: 0.018518519
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 15 Individuals: 202 Best Score: 0.01923077
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 16 Individuals: 204 Best Score: 0.01923077
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 17 Individuals: 206 Best Score: 0.019607844
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 18 Individuals: 208 Best Score: 0.019607844
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 19 Individuals: 210 Best Score: 0.019607844
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 20 Individuals: 212 Best Score: 0.019607844
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 21 Individuals: 214 Best Score: 0.019607844
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:36 - Generation: 22 Individuals: 216 Best Score: 0.019607844
+2017-12-11 15:41:20 INFO  GeneticAlgorithm:41 - Shortest PathOrder of Cities: 10, 17, 13, 18, 22, 15, 5, 20, 23, 11, 4, 16, 12, 8, 14, 2, 3, 0, 24, 21, 1, 9, 7, 1, 6, Fitness: 0.019607844
+2017-12-11 15:42:01 INFO  GeneticAlgorithm:18 - Vertices: 50
+2017-12-11 15:42:01 INFO  GeneticAlgorithm:36 - Generation: 0 Individuals: 8 Best Score: 0.007633588
+2017-12-11 15:42:01 INFO  GeneticAlgorithm:36 - Generation: 1 Individuals: 10 Best Score: 0.007633588
+2017-12-11 15:42:01 INFO  GeneticAlgorithm:36 - Generation: 2 Individuals: 12 Best Score: 0.007936508
+2017-12-11 15:42:01 INFO  GeneticAlgorithm:36 - Generation: 3 Individuals: 14 Best Score: 0.008
+2017-12-11 15:42:01 INFO  GeneticAlgorithm:36 - Generation: 4 Individuals: 16 Best Score: 0.008
+2017-12-11 15:42:01 INFO  GeneticAlgorithm:36 - Generation: 5 Individuals: 18 Best Score: 0.008130081
+2017-12-11 15:42:01 INFO  GeneticAlgorithm:36 - Generation: 6 Individuals: 20 Best Score: 0.008130081
+2017-12-11 15:42:01 INFO  GeneticAlgorithm:36 - Generation: 7 Individuals: 22 Best Score: 0.008196721
+2017-12-11 15:42:01 INFO  GeneticAlgorithm:36 - Generation: 8 Individuals: 24 Best Score: 0.008196721
+2017-12-11 15:42:01 INFO  GeneticAlgorithm:36 - Generation: 9 Individuals: 26 Best Score: 0.008333334
+2017-12-11 15:42:01 INFO  GeneticAlgorithm:36 - Generation: 10 Individuals: 28 Best Score: 0.008333334
+2017-12-11 15:42:01 INFO  GeneticAlgorithm:36 - Generation: 11 Individuals: 30 Best Score: 0.008333334
+2017-12-11 15:42:01 INFO  GeneticAlgorithm:36 - Generation: 12 Individuals: 32 Best Score: 0.00877193
+2017-12-11 15:42:01 INFO  GeneticAlgorithm:36 - Generation: 13 Individuals: 34 Best Score: 0.00877193
+2017-12-11 15:42:01 INFO  GeneticAlgorithm:36 - Generation: 14 Individuals: 36 Best Score: 0.00877193
+2017-12-11 15:42:01 INFO  GeneticAlgorithm:36 - Generation: 15 Individuals: 72 Best Score: 0.00877193
+2017-12-11 15:42:02 INFO  GeneticAlgorithm:36 - Generation: 16 Individuals: 144 Best Score: 0.0088495575
+2017-12-11 15:42:02 INFO  GeneticAlgorithm:36 - Generation: 17 Individuals: 146 Best Score: 0.0088495575
+2017-12-11 15:42:02 INFO  GeneticAlgorithm:36 - Generation: 18 Individuals: 148 Best Score: 0.009090909
+2017-12-11 15:42:02 INFO  GeneticAlgorithm:36 - Generation: 19 Individuals: 150 Best Score: 0.009090909
+2017-12-11 15:42:02 INFO  GeneticAlgorithm:36 - Generation: 20 Individuals: 300 Best Score: 0.009090909
+2017-12-11 15:42:02 INFO  GeneticAlgorithm:36 - Generation: 21 Individuals: 302 Best Score: 0.009259259
+2017-12-11 15:42:02 INFO  GeneticAlgorithm:36 - Generation: 22 Individuals: 604 Best Score: 0.009259259
+2017-12-11 15:42:03 INFO  GeneticAlgorithm:36 - Generation: 23 Individuals: 606 Best Score: 0.009433962
+2017-12-11 15:42:03 INFO  GeneticAlgorithm:36 - Generation: 24 Individuals: 608 Best Score: 0.009433962
+2017-12-11 15:42:03 INFO  GeneticAlgorithm:36 - Generation: 25 Individuals: 610 Best Score: 0.009433962
+2017-12-11 15:42:03 INFO  GeneticAlgorithm:36 - Generation: 26 Individuals: 612 Best Score: 0.009433962
+2017-12-11 15:42:04 INFO  GeneticAlgorithm:36 - Generation: 27 Individuals: 614 Best Score: 0.00952381
+2017-12-11 15:42:04 INFO  GeneticAlgorithm:36 - Generation: 28 Individuals: 616 Best Score: 0.010416667
+2017-12-11 15:42:04 INFO  GeneticAlgorithm:36 - Generation: 29 Individuals: 618 Best Score: 0.010416667
+2017-12-11 15:42:05 INFO  GeneticAlgorithm:36 - Generation: 30 Individuals: 620 Best Score: 0.010416667
+2017-12-11 15:42:05 INFO  GeneticAlgorithm:36 - Generation: 31 Individuals: 622 Best Score: 0.010416667
+2017-12-11 15:42:05 INFO  GeneticAlgorithm:36 - Generation: 32 Individuals: 624 Best Score: 0.010416667
+2017-12-11 15:42:06 INFO  GeneticAlgorithm:36 - Generation: 33 Individuals: 626 Best Score: 0.010416667
+2017-12-11 15:42:06 INFO  GeneticAlgorithm:41 - Shortest PathOrder of Cities: 7, 37, 4, 0, 29, 41, 6, 39, 21, 30, 42, 31, 18, 15, 36, 3, 34, 27, 3, 28, 14, 46, 47, 44, 8, 11, 29, 29, 9, 16, 1, 3, 32, 20, 5, 19, 23, 33, 17, 38, 48, 40, 2, 13, 35, 22, 49, 25, 26, 12, Fitness: 0.010416667

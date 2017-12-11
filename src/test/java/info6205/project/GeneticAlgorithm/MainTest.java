@@ -24,6 +24,10 @@ public class MainTest {
 		g.addEdge(e);
 		assertTrue(g.V()==7);
 		assertTrue(g.E()==1);
+		Iterable<WeightedEdge> a = g.adj(1);
+		Iterable<WeightedEdge> b = g.adj(2);
+		assertTrue(a.iterator().next() == e);
+		assertTrue(b.iterator().next() == e);
 	}
 	
 	/**
@@ -40,7 +44,7 @@ public class MainTest {
 		int[] a = {0, 1, 2, 3};
 		Individual i = new Individual(a, null, null);
 		i.calculateFitness(g);
-		assertTrue(i.score > 0);
+		assertTrue(i.score == (float) 0.25);	
 	}
 	
 	/**
@@ -79,7 +83,7 @@ public class MainTest {
 		Individual[] members = p.sortOnFitness();
 		assertTrue(members.length==6);
 		assertTrue(members[0].score == (float) 0.20);
-		assertTrue(members[1].score == (float) 0.25);
+		assertTrue(members[5].score == (float) 0.25);
 		
 	}
 	
